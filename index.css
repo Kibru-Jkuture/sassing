@@ -1,0 +1,18 @@
+.hole {
+  background: #fff;
+}
+
+.hole p {
+  color: wheat;
+  display: inline-block;
+}
+
+.hole p p {
+  color: #8d3b49;
+}
+
+.hole .deeper {
+  color: #fff;
+  padding: 20px;
+}
+/*# sourceMappingURL=index.css.map */

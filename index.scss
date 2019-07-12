@@ -1,0 +1,22 @@
+@mixin dived {
+    p{color:wheat;
+    display:inline-block;
+    p{
+        color:rgb(141, 59, 73);
+    }
+ }
+}
+$deepblue:#fff;
+
+.hole{
+    @include dived;
+   
+    background:$deepblue;
+    .deeper{
+       
+        color:$deepblue;
+        padding:20px;
+    }
+}
+
+
